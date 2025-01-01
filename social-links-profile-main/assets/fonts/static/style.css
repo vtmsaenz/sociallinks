@@ -1,6 +1,35 @@
 body {
     background-color: black;
-    color: goldenrod;
+    color: white;
+}
+.gold {
+    color: black;
+    background-color: goldenrod;
+}
+.gold1 {
+    color: black;
+}
+.bgroup {
+    max-width: 60%;
+}
+.profile {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* Ensure mobile-first design and limit maximum width to tablet size */
+.content-wrapper {
+    width: 100%; /* Full width by default */
+    max-width: 768px; /* Limit max width to tablet size */
+    padding: 0 15px; /* Add some padding for mobile phones */
+}
+
+@media (min-width: 768px) {
+    .content-wrapper {
+        margin: 0 auto; /* Center content on larger screens */
+    }
 }
 
 
