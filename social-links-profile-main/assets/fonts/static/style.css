@@ -12,6 +12,9 @@ body {
 .bgroup {
     max-width: 60%;
 }
+.hold {
+    background-color: rgb(67, 63, 63);
+}
 .profile {
     width: auto;
     height: auto;
@@ -22,8 +25,8 @@ body {
 /* Ensure mobile-first design and limit maximum width to tablet size */
 .content-wrapper {
     width: 100%; /* Full width by default */
-    max-width: 768px; /* Limit max width to tablet size */
-    padding: 0 15px; /* Add some padding for mobile phones */
+    max-width: 540px; /* Limit max width to tablet size */
+    padding: 20px 25px; /* Add some padding for mobile phones */
 }
 
 @media (min-width: 768px) {
